@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <fieldset>
+        <legend> Personal Information </legend>
+        <p>Full Name: <input type="text" placeholder="Enter your full name"/><p>
+        <P>Email: <input type="text" placeholder="example@gmail.com"></P>
+        <p>Password: <input type="text" placeholder=""></p>
+        <p>Date of Birth: <input type="date"></p>
+        Gerder:
+        <input type="radio" name = "Gerder">Male
+        <input type="radio" name = "Gerder">Female
+        <p>Phone: <input type="text"></p>
+    </fieldset><br>
+    <fieldset>
+        <legend>Acadenmic Information</legend>
+        <p>Student ID: <input type="text"></p>
+        <p> Major: 
+        <select>
+            <option>Select Major</option>
+            <option>HTML</option>
+            <option>ot dg dak ey</option>
+            <option>dak ey dak tv</option>
+            
+            <input type="checkbox" name="skills" value="HTML">
+            HTML
+
+            <input type="checkbox" name="skills" value="CSS">
+            CSS
+
+            <input type="checkbox" name="skills" value="JavaScript">
+            JavaScript
+
+            <br><br>
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" name="photo">
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <label for="address">Address:</label>
+            <br>
+            <textarea id="address" name="address"
+                      rows="4" cols="40"></textarea>
+
+            <br><br>
+
+            <label for="website">Personal Website:</label>
+            <input type="url" id="website" name="website">
+
+            <br><br>
+
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" name="agree" required>
+        I agree to the registration terms.
+
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
+
+        </select></p>
+    </fieldset>
+</body>
+</html> 
